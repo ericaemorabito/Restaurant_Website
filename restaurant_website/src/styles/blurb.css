@@ -1,0 +1,17 @@
+#home-about-blurb {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--beige);
+}
+
+#blurb-text {
+  text-align: justify;
+}
+
+#learn-more-button {
+  background-color: transparent;
+  color: var(--beige);
+}

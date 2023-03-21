@@ -1,8 +1,12 @@
 import React from 'react'
-
+import Blurb from '../components/Blurb'
 const HomeScreen = () => {
   return (
-    <div>HomeScreen</div>
+    <div>
+      <h1>Colletta</h1>
+      <Blurb></Blurb>
+
+    </div>
   )
 }
 
