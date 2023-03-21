@@ -1,0 +1,14 @@
+.info-card-image {
+  height: 44rem;
+  width: 28rem;
+}
+
+.info-card {
+  height: 16rem;
+  width: 27rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
