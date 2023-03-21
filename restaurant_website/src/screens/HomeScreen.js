@@ -4,12 +4,13 @@ import InfoCard from '../components/InfoCard'
 import InfoCardLeft from '../components/InfoCardLeft'
 import Press from '../components/Press'
 import Join from '../components/Join'
+import ImageCarousel from '../components/ImageCarousel'
 
 const HomeScreen = () => {
   return (
     <div>
-      <h1>Colletta</h1>
-      <Blurb></Blurb>
+      <ImageCarousel/>
+      <Blurb />
       <InfoCard/>
       <InfoCardLeft />
       <Press />
