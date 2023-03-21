@@ -12,3 +12,15 @@
   align-items: center;
   border: 1px solid black;
 }
+
+#image-border-top {
+  border-top: 20px solid black; 
+}
+
+#image-border-bottom {
+  border-bottom: 20px solid black; 
+}
+
+h2 {
+  border-bottom: 1px solid black;
+}

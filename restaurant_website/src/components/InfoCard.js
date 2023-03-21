@@ -9,7 +9,7 @@ const InfoCard = () => {
       <Container fluid>
         <Row className="h-75 py-5 mx-5">
           <Col sm={12} m={6} lg={6} className="py-3 d-flex flex-column align-items-center justify-content-center">
-            <div className="d-flex flex-column align-items-center justify-content-center">
+            <div id="image-border-top" className="d-flex flex-column align-items-center justify-content-center">
               <img
                 src={bruschetta}
                 className="info-card-image"
@@ -19,13 +19,13 @@ const InfoCard = () => {
           </Col>
           <Col sm={12} m={6} lg={6} className="py-3 d-flex flex-column align-items-center justify-content-center">
             <div className="info-card py-5 px-5">
-              <h2>Host a Party</h2>
-              <p>
+              <h2 className="py-2">Host a Party</h2>
+              <p className="py-1">
                 We recommend celebrating all moments, big or small, or turning a
                 business dinner into a festive feast. At Colletta, you don't
                 need an excuse to gather.
               </p>
-              <Button variant="dark">Make Reservation</Button>
+              <Button variant="dark">Make a Reservation</Button>
             </div>
           </Col>
         </Row>
