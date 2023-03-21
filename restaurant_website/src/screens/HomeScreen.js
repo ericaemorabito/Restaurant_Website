@@ -3,6 +3,7 @@ import Blurb from '../components/Blurb'
 import InfoCard from '../components/InfoCard'
 import InfoCardLeft from '../components/InfoCardLeft'
 import Press from '../components/Press'
+import Join from '../components/Join'
 
 const HomeScreen = () => {
   return (
@@ -12,6 +13,7 @@ const HomeScreen = () => {
       <InfoCard/>
       <InfoCardLeft />
       <Press />
+      <Join />
     </div>
   )
 }
