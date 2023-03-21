@@ -14,10 +14,10 @@ function App() {
       <Header />
       <main>
         <HomeScreen />
-        <AboutScreen />
+        {/* <AboutScreen />
         <HoursScreen />
         <MenuScreen />
-        <ReservationScreen />
+        <ReservationScreen /> */}
       </main>
       <Footer />
     </>
