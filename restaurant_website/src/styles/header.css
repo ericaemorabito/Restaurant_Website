@@ -1,0 +1,27 @@
+/* #nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+} */
+
+a:hover {
+  color: red;
+}
+
+.nav-links::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-links:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
