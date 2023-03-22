@@ -1,0 +1,20 @@
+.team-row {
+  height: 70vh;
+  width: 90%;
+  margin: auto;
+}
+
+.employee-card {
+  /* background-color: red; */
+  text-align: center;
+  padding: 2rem;
+  margin: auto;
+}
+
+.employee-image-card {
+  background-color: #000000;
+}
+
+.employee-image {
+  height: 200px;
+}

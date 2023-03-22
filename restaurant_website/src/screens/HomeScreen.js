@@ -14,10 +14,10 @@ const HomeScreen = () => {
     const card1 = "We recommend celebrating all moments, big or small, or turning a business dinner into a festive feast. At Colletta, you don't need an excuse to gather."
     const title2 = "Menus"
     const card2 = "Come see the items featured from our scratch made kitchen."
-  
+
     return (
     <div>
-      <ImageCarousel />
+      <ImageCarousel home={true} />
       <Blurb text={text} />
       <InfoCard home={true} title={title1} card={card1}/>
       <InfoCardLeft home={true} title={title2} card={card2}/>

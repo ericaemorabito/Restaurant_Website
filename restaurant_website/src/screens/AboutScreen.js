@@ -15,7 +15,7 @@ const AboutScreen = () => {
   
   return (
     <div>
-      <ImageCarousel/>
+      <ImageCarousel home={false}/>
       <Blurb text={text} />
       <InfoCard home={false} title={title1} card={card1}/>
       <InfoCardLeft home={false} title={title2} card={card2}/>
