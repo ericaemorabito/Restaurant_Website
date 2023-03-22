@@ -1,27 +1,51 @@
-/* #nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-} */
+header {
+  margin-top: 16px;
+  margin-right: 18px;
+  margin-left: 18px;
+  border: 1px solid black;
+}
 
-/* a:hover {
+#nav {
+  position: absolute;
+  right: 10px;
+}
+
+.nav-links {
+  color: black;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-links:hover {
   color: red;
 }
 
 .nav-links::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: red;
-  transform-origin: center;
+  background-color: black;
+  transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
 
 .nav-links:hover::after {
   transform: scaleX(1);
-  transform-origin: center;
-} */
+  transform-origin: bottom left;
+}
+
+.nav-buttons {
+  color: black;
+  background-color: transparent;
+  border: 0;
+}
+
+.nav-buttons:hover {
+  color: red;
+  background-color: transparent;
+  border: 0;
+}
