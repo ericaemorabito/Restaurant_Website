@@ -1,0 +1,13 @@
+#menu-image {
+  height: 70vh;
+  width: 80vw;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.menu-buttons {
+  background-color: red;
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+}
