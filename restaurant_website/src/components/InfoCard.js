@@ -3,7 +3,7 @@ import "../styles/infoCard.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import bruschetta from "../images/bruschetta.jpeg";
 
-const InfoCard = () => {
+const InfoCard = ({ home, title, card }) => {
   return (
     <>
       <Container fluid>
@@ -19,13 +19,11 @@ const InfoCard = () => {
           </Col>
           <Col sm={12} m={6} lg={6} className="py-3 d-flex flex-column align-items-center justify-content-center">
             <div className="info-card py-5 px-5">
-              <h2 className="py-2">Host a Party</h2>
+              <h2 className="py-2">{title}</h2>
               <p className="py-1">
-                We recommend celebrating all moments, big or small, or turning a
-                business dinner into a festive feast. At Colletta, you don't
-                need an excuse to gather.
+                {card}
               </p>
-              <Button variant="dark">Make a Reservation</Button>
+              {home && (<Button variant="dark">Make a Reservation</Button>)}
             </div>
           </Col>
         </Row>

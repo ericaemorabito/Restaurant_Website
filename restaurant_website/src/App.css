@@ -1,8 +1,9 @@
 :root {
-  --beige: rgb(255,255,255);
+  --beige: rgb(255,240,219);
+  --faded-beige: rgba(255,240,219, 0.5);
 }
 
 main {
-  background-color: rgb(255,255,255);
+  background-color: var(--beige);
 }
 
