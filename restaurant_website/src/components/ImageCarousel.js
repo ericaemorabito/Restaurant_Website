@@ -5,23 +5,23 @@ import bruschetta from "../images/bruschetta.jpeg";
 
 function ImageCarousel() {
   return (
-    <Container className="my-5">
-      <Carousel fade>
-        <Carousel.Item interval={1200}>
+    <Container  className="my-5">
+      <Carousel id="carousel-container" fade>
+        <Carousel.Item interval={3000}>
           <img
             className="carousel-image d-block w-100"
             src={pasta}
             alt="First slide"
           />
         </Carousel.Item>
-        <Carousel.Item interval={1200}>
+        <Carousel.Item interval={3000}>
           <img
             className="carousel-image d-block w-100"
             src={pasta}
             alt="Second slide"
           />
         </Carousel.Item>
-        <Carousel.Item interval={1200}>
+        <Carousel.Item interval={3000}>
           <img
             className="carousel-image d-block w-100"
             src={bruschetta}

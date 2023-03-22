@@ -1,6 +1,7 @@
 import React from 'react'
-import '../styles/hours.css'
-const HoursScreen = (props) => {
+import '../styles/popup.css'
+
+const Popup = (props) => {
   return (
     <>
       <div className='popup-box'>
@@ -13,4 +14,4 @@ const HoursScreen = (props) => {
   )
 }
 
-export default HoursScreen
+export default Popup

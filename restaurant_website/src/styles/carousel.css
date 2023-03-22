@@ -1,3 +1,7 @@
+#carousel-container {
+  z-index: 0;
+}
+
 .carousel-image {
   height: 71vh;
   width: 80vw;
