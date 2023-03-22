@@ -5,9 +5,24 @@
   margin-top: 10vh;
 }
 
-.menu-buttons {
-  background-color: red;
-  text-align: center;
-  height: fit-content;
-  width: fit-content;
+li {
+  list-style: none;
+  margin: 10px;
+}
+
+.menu-buttons-div {
+  border-radius: 0%;
+}
+
+#btn-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu-btn {
+  border-radius: 0;
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }

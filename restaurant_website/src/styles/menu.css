@@ -1,0 +1,14 @@
+.menu-row {
+  width: 45rem;
+  border-bottom: 1px solid black;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.menu-item {
+  text-align: center;
+}
