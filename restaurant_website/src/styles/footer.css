@@ -9,4 +9,7 @@ footer {
 
 p {
   margin: 10px;
+  font-family: var(--san-serif);
+  letter-spacing: var(--button-letter-spacing);
+  font-size: 13px;
 }

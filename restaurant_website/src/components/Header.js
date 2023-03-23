@@ -20,10 +20,10 @@ const Header = (props) => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav id='nav' as='div' className="justify-contents-end">
-              <Button className="nav-links nav-buttons" onClick={props.handleClose}>Hours & Location</Button>
-              <Nav.Link className="nav-links" href="/menu">Menu</Nav.Link>
-              <Nav.Link className="nav-links" href="/about">About</Nav.Link>
-              <Button className="nav-links nav-buttons" onClick={props.handleClose}>Reservations</Button>
+              <Button className="nav-links nav-buttons" onClick={props.handleHours}>HOURS & LOCATION</Button>
+              <Nav.Link className="nav-links" href="/menu">MENU</Nav.Link>
+              <Nav.Link className="nav-links" href="/about">ABOUT</Nav.Link>
+              <Button className="nav-links nav-buttons" onClick={props.handleClose}>RESERVATIONS</Button>
             </Nav>
           </Navbar.Collapse>
       </Navbar>

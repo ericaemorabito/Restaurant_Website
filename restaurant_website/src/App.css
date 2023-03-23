@@ -1,7 +1,47 @@
 :root {
   --beige: rgb(255,240,219);
-  --faded-beige: rgba(255,240,219, 0.5);
+  --faded-beige: rgba(255,255,255, 0.5);
+  /* IMAGES */
   --image-height: 68vh;
   --image-width: 100%;
+  /* FONT FAMILIES */
+  --san-serif: 'Bitter', serif;
+  --cursive: 'League Script', cursive;
+  --nice-times: 'Bitter', serif;
+  --tall-straight: 'Lato', sans-serif;
+  /* BUTTON STYLING */
+  --button-font-size: 13px;
+  --button-letter-spacing: 2px;
+
+  /* TITLE STYLING */
+  --title-font-size: 2rem;
+  --subtitle-font-size: 2rem;
 }
 
+/* BUTTON ON CARDS AND MENU*/
+.black-button {
+  background-color: black;
+  border-radius: 0%;
+  border: 1px solida black;
+  font-family: var(--san-serif);
+  font-size: var(--button-font-size);
+  letter-spacing: var(--button-letter-spacing);
+}
+
+.black-button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* CARDS AND MENU */
+.subtitle {
+  font-family: var(--cursive);
+  font-size: var(--subtitle-font-size);
+}
+
+/* TEXT ON EVERYTHING */
+.styled-text {
+  font-family: var(--nice-times);
+}
+
+/* className="styled-text" */

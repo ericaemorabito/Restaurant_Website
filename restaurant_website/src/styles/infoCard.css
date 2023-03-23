@@ -13,6 +13,16 @@
   border: 1px solid black;
 }
 
+.card-button {
+  border: 1px solid black;
+  padding-right: 20px;
+  padding-left: 20px
+}
+
+.card-button:hover {
+  border: 1px solid black;
+}
+
 #image-border-top {
   border-top: 20px solid black; 
 }

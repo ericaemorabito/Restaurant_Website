@@ -1,21 +1,22 @@
-import React from 'react'
-import '../styles/join.css'
-import pasta from '../images/pasta.jpeg'
-import {Container, Button } from 'react-bootstrap'
+import React from "react";
+import "../styles/join.css";
+import "../styles/infoCard.css";
+import pasta from "../images/pasta.jpeg";
+import { Container, Button } from "react-bootstrap";
 
 const Join = () => {
   return (
     <>
-      <Container fluid className='my-5 w-75 d-flex flex-column align-items-center justify-content-center' id="join">
-        <h3 className='my-2 text-light'>
-          Join Us for Dinner
-        </h3>
-        <Button className='my-3' variant='dark'>
-          Reservations
-        </Button>
+      <Container fluid id="join" className="mt-5 w-100">
+        <div className="color-overlay  d-flex flex-column align-items-center justify-content-center">
+          <h3 className="my-2 text-light">Join Us for Dinner</h3>
+          <Button className="my-3 black-button card-button" variant="dark">
+            RESERVATIONS
+          </Button>
+        </div>
       </Container>
     </>
-  )
-}
+  );
+};
 
-export default Join
+export default Join;

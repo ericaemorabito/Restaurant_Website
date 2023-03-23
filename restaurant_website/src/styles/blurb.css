@@ -13,5 +13,16 @@
 
 #learn-more-button {
   background-color: transparent;
-  color: white
+  color: white;
+  font-family: var(--san-serif);
+  font-size: var(--button-font-size);
+  letter-spacing: var(--button-letter-spacing);
+  border: 1.5px solid white;
+  border-radius: 0%;
+  padding: 10px 15px 10px 15px;
+}
+
+#learn-more-button:hover {
+  background-color: white;
+  color: black;
 }

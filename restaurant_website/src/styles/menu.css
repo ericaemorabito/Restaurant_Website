@@ -1,14 +1,29 @@
 .menu-row {
   width: 45rem;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+.menu-items-div {
+  width: 35rem;
+}
+
+.menu-item-name {
+  font-family: var(--tall-straight);
+  font-size: 1.1rem;
 }
 
 h2 {
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   padding: 10px;
   margin: 10px;
 }
 
 .menu-item {
-  text-align: center;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+ 
 }

@@ -2,7 +2,7 @@ header {
   margin-top: 16px;
   margin-right: 18px;
   margin-left: 18px;
-  border: 1px solid black;
+  border: 2px solid black;
   position: sticky;
   top: 10px;
   z-index: 2;
@@ -15,6 +15,10 @@ header {
 }
 
 .nav-links {
+  font-family: var(--san-serif);
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 13px;
   color: black;
   display: inline-block;
   position: relative;

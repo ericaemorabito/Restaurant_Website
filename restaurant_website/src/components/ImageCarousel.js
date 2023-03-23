@@ -14,15 +14,15 @@ function ImageCarousel({ home }) {
   return (
     <Container className="my-5">
       <Carousel as="div" id="carousel-container" fade>
-        <Carousel.Item>
-          {/* <Carousel.Item interval={3000}> */}
+        {/* <Carousel.Item> */}
+          <Carousel.Item interval={3000}>
           <img
             className="carousel-image d-block"
             src={olivePasta}
             alt="First slide"
           />
         </Carousel.Item>
-        {/* <Carousel.Item interval={3000}>
+        <Carousel.Item interval={3000}>
           <img
             className="carousel-image d-block w-100"
             src={pizza}
@@ -37,7 +37,7 @@ function ImageCarousel({ home }) {
             // src={dough}
             alt="Third slide"
           />
-        </Carousel.Item> */}
+        </Carousel.Item>
       </Carousel>
     </Container>
   );

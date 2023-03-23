@@ -1,22 +1,28 @@
 #press-container {
-  height: 15rem;
+  height: 50vh;
   margin-bottom: 20px;
 }
 
 .press-button {
-  font-size: 1.5rem;
+  font-family: var(--tall-straight);
+  font-size: 1.2rem;
+  letter-spacing: 5px;
+  height: fit-content;
+  width: fit-content;
   background-color: transparent;
   color:black;
   border: 1px solid black;
   border-radius: 0%;
 }
 
+.press-row {
+  width: 36rem;
+}
+
 .press-button:hover {
-  font-size: 1.5rem;
   background-color: black;
   color:white;
   border: 1px solid black;
-  border-radius: 0%;
 }
 
 @media (max-width: 980px) {

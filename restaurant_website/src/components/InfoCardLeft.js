@@ -7,7 +7,7 @@ const InfoCardLeft = ({ home, title, card }) => {
   return (
     <>
       <Container fluid>
-        <Row className="h-75 py-5 mx-5">
+        <Row className="h-75 mx-5">
           <Col
             sm={12}
             m={6}
@@ -15,9 +15,9 @@ const InfoCardLeft = ({ home, title, card }) => {
             className="py-3 d-flex flex-column align-items-center justify-content-center"
           >
             <div className="info-card py-5 px-5">
-              <h2 className="py-2">{title}</h2>
-              <p className="py-1">{card} </p>
-              {home && <Button variant="dark">Menu</Button>}
+              <h2 className="py-2 subtitle">{title}</h2>
+              <p className="py-1 styled-text">{card} </p>
+              {home && <Button className="black-button card-button">MENU</Button>}
             </div>
           </Col>
           <Col

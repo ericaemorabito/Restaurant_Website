@@ -1,10 +1,15 @@
-const lunchMenu = [
-  {
-    id: 1, 
-    item: 'MEATBALLS',
-    description:'pork, and veal, tomato, polenta, parmesan, basil',
-    price: '9',
+const menuData = {
+  lunch: {
+    title1: 'Antipasta'
+    
   },
-];
+  dinner: {
+
+  },
+  dessert: {
+
+  }, 
+
+}
 
 export default lunchMenu;
