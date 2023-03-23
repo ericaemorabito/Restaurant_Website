@@ -7,7 +7,7 @@ import '../styles/header.css';
 const Header = (props) => {
   return (
     <header>
-      <Navbar expand="lg">
+      <Navbar collapseOnSelect expand="lg">
           <Navbar.Brand href="/">
             <img
               src={Colleta}
@@ -17,8 +17,8 @@ const Header = (props) => {
               alt="React Bootstrap logo"
             ></img>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav id='nav' as='div' className="justify-contents-end">
               <Button className="nav-links nav-buttons" onClick={props.handleHours}>HOURS & LOCATION</Button>
               <Nav.Link className="nav-links" href="/menu">MENU</Nav.Link>

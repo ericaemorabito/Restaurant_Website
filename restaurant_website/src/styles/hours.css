@@ -1,5 +1,5 @@
 .box {
-  min-height: 300px;
+  height: 300px;
   width: 50%;
   background-color: white;
   border: 1px solid black;
@@ -20,14 +20,12 @@
   font-size: 1.1rem;
 }
 
-iframe {
-  position: relative;
-  left: 20%;
+map {
   border: 0;
 }
 
 @media (max-width: 786px){
   .box {
-    width: 75%;
+    height: 100vh;
   }
 }

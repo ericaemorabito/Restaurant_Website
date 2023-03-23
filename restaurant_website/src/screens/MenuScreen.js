@@ -8,20 +8,20 @@ import {
   ListGroup,
   ListGroupItem,
 } from "react-bootstrap";
-import beefPasta from "../images/beefpasta.jpeg";
 import Menu from "../components/Menu";
-
+import olivePasta from "../images/olivepasta.jpeg";
+import cheesy from "../images/cheesy.jpeg";
 const MenuScreen = () => {
 
   const [menu, setMenu] = useState("lunch");
 
   return (
-    <Container>
+    <Container fluid>
       {/* Menu Image */}
       <Row>
         <img
           id="menu-image"
-          src={beefPasta}
+          src={cheesy}
           alt="pastas on table"
           className="img-fluid my-5"
         ></img>

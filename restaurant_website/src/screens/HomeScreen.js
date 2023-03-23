@@ -5,6 +5,9 @@ import InfoCardLeft from "../components/InfoCardLeft";
 import Press from "../components/Press";
 import Join from "../components/Join";
 import ImageCarousel from "../components/ImageCarousel";
+import cheers from "../images/cheers.jpeg";
+import mussels from '../images/mussels.jpeg'
+
 
 const HomeScreen = ({ makeReservation }) => {
   const text =
@@ -19,8 +22,8 @@ const HomeScreen = ({ makeReservation }) => {
     <div>
       <ImageCarousel home={true} />
       <Blurb about={false} text={text} />
-      <InfoCard makeReservation={makeReservation} home={true} title={title1} card={card1}/>
-      <InfoCardLeft home={true} title={title2} card={card2}/>
+      <InfoCard makeReservation={makeReservation} home={true} title={title1} card={card1} image={cheers}/>
+      <InfoCardLeft home={true} title={title2} card={card2} image={mussels}/>
       <Press />
       <Join makeReservation={makeReservation}/>
     </div>

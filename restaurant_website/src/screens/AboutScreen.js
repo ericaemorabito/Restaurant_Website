@@ -4,6 +4,8 @@ import InfoCard from '../components/InfoCard'
 import InfoCardLeft from '../components/InfoCardLeft'
 import ImageCarousel from '../components/ImageCarousel'
 import Team from '../components/Team'
+import foccacia from '../images/foccaccia.jpeg'
+import chef from '../images/chef.jpeg'
 
 const AboutScreen = () => {
 
@@ -17,8 +19,8 @@ const AboutScreen = () => {
     <div>
       <ImageCarousel home={false}/>
       <Blurb about={true} text={text} />
-      <InfoCard home={false} title={title1} card={card1}/>
-      <InfoCardLeft home={false} title={title2} card={card2}/>
+      <InfoCard home={false} title={title1} card={card1} image={foccacia}/>
+      <InfoCardLeft home={false} title={title2} card={card2} image={chef}/>
       <Team />
     </div>
   )

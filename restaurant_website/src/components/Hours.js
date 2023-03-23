@@ -17,7 +17,7 @@ const Hours = (props) => {
           <p className="address mt-4 text-center">
             12345 Main St. New York, USA 12345
           </p>
-          <p className="mt-4">
+          <p className="mt-4 map d-flex justify-content-center">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3186.2898291296174!2d-88.33853624952344!3d37.00288147980863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887a692cdc27f597%3A0xea955b37b71f33a9!2zTWFtYSBE4oCZcw!5e0!3m2!1sen!2sus!4v1679604731393!5m2!1sen!2sus"
               width="400"

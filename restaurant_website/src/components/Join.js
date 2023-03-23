@@ -9,7 +9,7 @@ const Join = ({makeReservation}) => {
     <>
       <Container fluid id="join" className="mt-5 w-100">
         <div className="color-overlay  d-flex flex-column align-items-center justify-content-center">
-          <h3 className="my-2 text-light">Join Us for Dinner</h3>
+          <h3 className="my-2 text-light subtitle">Join Us for Dinner</h3>
           <Button className="my-3 black-button card-button" onClick={makeReservation} variant="dark">
             RESERVATIONS
           </Button>

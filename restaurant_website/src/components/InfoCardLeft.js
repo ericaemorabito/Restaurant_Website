@@ -3,8 +3,10 @@ import { useNavigate } from 'react-router-dom'
 import "../styles/infoCard.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import pasta from "../images/pasta.jpeg";
+import swirl from '../images/pastaswirl.jpeg'
+import mussels from '../images/mussels.jpeg'
 
-const InfoCardLeft = ({ home, title, card }) => {
+const InfoCardLeft = ({ home, title, card, image }) => {
 
   const navigate = useNavigate();
 
@@ -38,7 +40,7 @@ const InfoCardLeft = ({ home, title, card }) => {
               className="d-flex flex-column align-items-center justify-content-center"
             >
               <img
-                src={pasta}
+                src={image}
                 className="info-card-image"
                 alt="tomato bruschetta on table"
               ></img>
