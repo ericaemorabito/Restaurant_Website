@@ -19,6 +19,8 @@
   border-radius: 0%;
 }
 
-/* .subtitle {
-
-} */
+@media (max-width: 980px) {
+  #press-container {
+    height: 30rem;
+  }
+}

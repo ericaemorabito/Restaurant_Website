@@ -24,3 +24,25 @@
 h2 {
   border-bottom: 1px solid black;
 }
+
+@media (max-width: 768px) {
+  .info-card-image {
+    height: 65vh;
+    width: 85vw;
+  }
+
+  #image-border-top {
+    height: 50vh;
+    overflow: hidden;
+  }
+
+  #image-border-bottom {
+    height: 50vh;
+    overflow: hidden;
+  }
+
+  .info-card {
+    height: 30vh;
+    width: 85vw;
+  }
+}

@@ -4,13 +4,11 @@ import { Container, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <footer>
-      <Container className="footer my-3">
-        <Row className="d-flex align-items-center justify-content-center">
-          <p className="text-center">Contact</p>
-          <p className="text-center">Hours & Location</p>
-        </Row>
-      </Container>
+    <footer className="my-3 d-flex justify-content-center align-items-center">
+          <p>Contact</p>
+          <p>Press</p>
+          <p>Hours & Location</p>
+          <p>Reservations</p>
     </footer>
   );
 };

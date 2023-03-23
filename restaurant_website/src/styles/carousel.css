@@ -3,6 +3,20 @@
 }
 
 .carousel-image {
-  height: 71vh;
-  width: 80vw;
+  height: 68vh;
+  width: 100%;
+}
+
+/* .carousel-control-prev-icon {
+  display: none;
+}
+
+.carousel-control-next-icon {
+  display: none;
+} */
+
+@media (max-width: 768px) {
+  .carousel-image {
+    height: 30vh;
+  }
 }

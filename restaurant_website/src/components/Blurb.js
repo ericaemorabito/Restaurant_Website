@@ -12,7 +12,7 @@ const Blurb = ({ text }) => {
           lg={9}
           className="d-flex flex-column align-items-center justify-content-center"
         >
-          <div id="blurb-text" className="my-2">
+          <div id="blurb-text" className="my-2 mx-5">
             {text}
           </div>
             <Button id="learn-more-button" variant="light" className="my-3">

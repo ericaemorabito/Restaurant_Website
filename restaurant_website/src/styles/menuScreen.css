@@ -1,8 +1,6 @@
 #menu-image {
-  height: 70vh;
-  width: 80vw;
-  margin: auto;
-  margin-top: 10vh;
+  height: var(--image-height);
+  width: var(--image-width);
 }
 
 li {

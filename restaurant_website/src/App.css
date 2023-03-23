@@ -1,9 +1,7 @@
 :root {
   --beige: rgb(255,240,219);
   --faded-beige: rgba(255,240,219, 0.5);
+  --image-height: 68vh;
+  --image-width: 100%;
 }
-
-/* * {
-  background-color: var(--beige);
-} */
 

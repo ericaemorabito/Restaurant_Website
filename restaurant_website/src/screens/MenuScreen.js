@@ -27,7 +27,7 @@ const MenuScreen = () => {
           id="menu-image"
           src={beefPasta}
           alt="pastas on table"
-          className="img-fluid"
+          className="img-fluid my-5"
         ></img>
       </Row>
       <Row>
