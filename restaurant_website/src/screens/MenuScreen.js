@@ -12,14 +12,7 @@ import beefPasta from "../images/beefpasta.jpeg";
 import Menu from "../components/Menu";
 
 const MenuScreen = () => {
-  // // Set the default to lunch
-  // const [menuType, setMenu] = useState('lunch');
 
-  // const handleLunchMenu = () => {
-  //   // console.log(lunchMenu)
-  // }
-
-  // if lunch button clicked --> render Menu with lunch props
   const [menu, setMenu] = useState("lunch");
 
   return (
@@ -32,11 +25,6 @@ const MenuScreen = () => {
           alt="pastas on table"
           className="img-fluid my-5"
         ></img>
-      </Row>
-
-      {/* Title  */}
-      <Row>
-        <h1 className="subtitle text-center my-5">Menu</h1>
       </Row>
 
       {/* Different Menu Buttons */}

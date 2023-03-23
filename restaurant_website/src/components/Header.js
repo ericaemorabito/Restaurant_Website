@@ -23,7 +23,7 @@ const Header = (props) => {
               <Button className="nav-links nav-buttons" onClick={props.handleHours}>HOURS & LOCATION</Button>
               <Nav.Link className="nav-links" href="/menu">MENU</Nav.Link>
               <Nav.Link className="nav-links" href="/about">ABOUT</Nav.Link>
-              <Button className="nav-links nav-buttons" onClick={props.handleClose}>RESERVATIONS</Button>
+              <Button className="nav-links nav-buttons" onClick={props.handleReservation}>RESERVATIONS</Button>
             </Nav>
           </Navbar.Collapse>
       </Navbar>

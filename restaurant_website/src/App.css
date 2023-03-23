@@ -45,3 +45,25 @@
 }
 
 /* className="styled-text" */
+
+/* HOUR AND RESERVATION POP UP */
+.popup-box {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--faded-beige);
+}
+
+.btn-close {
+  height: 30px; 
+  width: 30px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 0%;
+  position: fixed;
+  right: calc(25% + 20px);
+  top: 20%;
+}

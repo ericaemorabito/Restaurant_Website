@@ -3,7 +3,7 @@ import "../styles/infoCard.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import bruschetta from "../images/bruschetta.jpeg";
 
-const InfoCard = ({ home, title, card }) => {
+const InfoCard = ({ home, title, card, makeReservation }) => {
   return (
     <>
       <Container fluid>
@@ -23,7 +23,7 @@ const InfoCard = ({ home, title, card }) => {
               <p className="py-1 styled-text">
                 {card}
               </p>
-              {home && (<Button className="black-button card-button">MAKE A RESERVATION</Button>)}
+              {home && (<Button className="black-button card-button" onClick={makeReservation}>MAKE A RESERVATION</Button>)}
             </div>
           </Col>
         </Row>

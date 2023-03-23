@@ -1,9 +1,16 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom'
 import "../styles/infoCard.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import pasta from "../images/pasta.jpeg";
 
 const InfoCardLeft = ({ home, title, card }) => {
+
+  const navigate = useNavigate();
+
+  const handleToMenu = () => {
+    navigate('/menu')
+  }
   return (
     <>
       <Container fluid>
@@ -17,7 +24,7 @@ const InfoCardLeft = ({ home, title, card }) => {
             <div className="info-card py-5 px-5">
               <h2 className="py-2 subtitle">{title}</h2>
               <p className="py-1 styled-text">{card} </p>
-              {home && <Button className="black-button card-button">MENU</Button>}
+              {home && <Button className="black-button card-button" onClick={handleToMenu}>MENU</Button>}
             </div>
           </Col>
           <Col

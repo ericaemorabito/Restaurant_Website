@@ -7,9 +7,13 @@ footer {
   left: 10px;
 }
 
-p {
+p, 
+#footer-res-btn  {
   margin: 10px;
   font-family: var(--san-serif);
   letter-spacing: var(--button-letter-spacing);
   font-size: 13px;
+  background-color: transparent;
+  color: black;
+  border: none;
 }

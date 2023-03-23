@@ -6,11 +6,11 @@ import HomeScreen from "./screens/HomeScreen";
 import AboutScreen from "./screens/AboutScreen";
 import HoursScreen from "./screens/HoursScreen";
 import MenuScreen from "./screens/MenuScreen";
-import ReservationScreen from "./screens/ReservationScreen";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Popup from "./components/Popup";
 import Hours from "./components/Hours";
+import Reservation from './components/Reservation'
 
 function App() {
   // Open and Close Popup
@@ -28,15 +28,15 @@ function App() {
   };
 
   // Open Reservations
-  // const [openReservation, setReservation] = useState(false);
+  const [openReservation, setReservation] = useState(false);
 
-  // const toggleReservation = () => {
-  //   setReservation(!openReservation);
-  // };
+  const toggleReservation = () => {
+    setReservation(!openReservation);
+  };
 
   return (
     <Router>
-      <Header handleHours={toggleHours} />
+      <Header handleHours={toggleHours} handleReservation={toggleReservation}/>
       <main>
         {/* {isOpen && (
           <Popup
@@ -45,15 +45,15 @@ function App() {
           />
         )} */}
         {openHours && <Hours handleClose={toggleHours} />}
-        {/* {openReservation && <Reservation handleClose={toggleReservation} />} */}
+        {openReservation && <Reservation handleClose={toggleReservation} />}
         <Routes>
-          <Route path="/" element={<HomeScreen />}></Route>
+          <Route path="/" element={<HomeScreen makeReservation={toggleReservation}/>}></Route>
           <Route path="/about" element={<AboutScreen />}></Route>
           <Route path="/menu" element={<MenuScreen />}></Route>
           {/* <ReservationScreen /> */}
         </Routes>
       </main>
-      <Footer />
+      <Footer makeReservation={toggleReservation}/>
     </Router>
   );
 }

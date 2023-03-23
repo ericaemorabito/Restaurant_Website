@@ -8,6 +8,9 @@ const Menu = ({ menu }) => {
       {/* Lunch Menu */}
       {menu === "lunch" && (
         <div className="menu">
+          <Row>
+            <h1 className="subtitle text-center mb-3">Lunch Menu</h1>
+          </Row>
           <Row className="menu-row">
             <h2 className="subtitle">Antipasti</h2>
             <div className="menu-items-div">
@@ -55,6 +58,9 @@ const Menu = ({ menu }) => {
       {/* Display the Dinner Menu */}
       {menu === "dinner" && (
         <div className="menu">
+          <Row>
+            <h1 className="subtitle text-center mb-3">Dinner Menu</h1>
+          </Row>
           <Row className="menu-row">
             <h2 className="subtitle">Antipasti</h2>
             <div className="menu-items-div">
@@ -124,6 +130,9 @@ const Menu = ({ menu }) => {
       {/* Display the Dessert Menu */}
       {menu === "dessert" && (
         <div className="menu">
+          <Row>
+            <h1 className="subtitle text-center mb-3">Dessert Menu</h1>
+          </Row>
           <Row className="menu-row">
             <h2 className="subtitle">Dessert</h2>
             <div className="menu-items-div">
@@ -175,6 +184,9 @@ const Menu = ({ menu }) => {
       {/* Display the Wine Menu */}
       {menu === "wine" && (
         <div className="menu">
+          <Row>
+            <h1 className="subtitle text-center mb-3">Drink Menu</h1>
+          </Row>
           <Row className="menu-row">
             <h2 className="subtitle">Signature Cocktails</h2>
             <div className="menu-items-div">

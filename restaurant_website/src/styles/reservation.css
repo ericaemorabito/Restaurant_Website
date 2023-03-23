@@ -1,0 +1,49 @@
+.box {
+  height: 65vh;
+  width: 50%;
+  background-color: white;
+  border: 1px solid black;
+  position: relative;
+  top: 15%;
+}
+
+.form-label {
+  font-family: var(--tall-straight);
+  font-size: 10px;
+  margin:0;
+  padding: 0;
+  color: black;
+  font-weight: 600;
+}
+
+.select, 
+#date-picker {
+  font-family: var(--nice-times);
+  /* letter-spacing: 2px; */
+  font-size: 1.1rem;
+  border-radius: 0%;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.make-res-btn {
+  border: 1px solid black;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px 30px;
+}
+
+.make-res-btn:hover {
+  border: 1px solid black;
+}
+
+@media (max-width: 786px){
+  .box {
+    width: 100%;
+  }
+
+  .btn-close {
+    position: relative;
+    z-index: 100;
+  }
+}

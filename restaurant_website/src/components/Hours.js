@@ -4,7 +4,7 @@ import "../styles/hours.css";
 const Hours = (props) => {
   return (
     <>
-      <div className="popup-box">
+      <div className="popup-box ">
         <div className="box">
           <button className="btn-close" onClick={props.handleClose}></button>
           <h2 className="text-center subtitle">Hours & Location</h2>
