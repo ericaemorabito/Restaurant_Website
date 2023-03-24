@@ -1,6 +1,6 @@
 :root {
   --beige: rgb(255, 240, 219);
-  --faded-beige: rgba(255, 255, 255, 0.5);
+  --faded-white: rgba(255, 255, 255, 0.5);
   /* IMAGES */
   --image-height: 68vh;
   --image-width: 100%;
@@ -38,6 +38,21 @@ img {
   color: black;
 }
 
+/* EACH PAGE TITLE */
+.page-title {
+  font-family: var(--cursive);
+  font-size: 4rem;
+  background-color: white;
+  z-index: 100;
+  padding: 1% 13% 1% 13%;
+  margin: 0;
+  /* position: absolute;
+  top: 68vh; */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 /* CARDS AND MENU */
 .subtitle {
   font-family: var(--cursive);
@@ -59,7 +74,19 @@ img {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: var(--faded-beige);
+  background-color: var(--faded-white);
+}
+
+.box {
+  height: 80vh;
+  width: 50%;
+  background-color: white;
+  border: 1px solid black;
+  position: relative;
+  margin: 20px auto;
+  padding: 20px;
+  overflow: auto;
+  /* top: 10%; */
 }
 
 .btn-close {
@@ -69,8 +96,12 @@ img {
   border: 1px solid black;
   border-radius: 0%;
   position: absolute;
-  top: 0px;
+  top: 0%;
   right: 0px;
 }
 
-@med
+@media (max-width: 786px) {
+  .box {
+    width: 100%;
+  }
+}

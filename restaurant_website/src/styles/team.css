@@ -5,16 +5,27 @@
 }
 
 .employee-card {
-  /* background-color: red; */
   text-align: center;
   padding: 2rem;
   margin: auto;
 }
 
-.employee-image-card {
-  background-color: #000000;
-}
+/* .employee-image-card {
+} */
 
 .employee-image {
-  height: 200px;
+  height: 300px;
+  width: 265px;
+  margin: auto;
+}
+
+.employee-name {
+  font-family: var(--tall-straight);
+
+}
+
+.employee-job {
+font-size: 16px;  
+margin: 0
+;
 }

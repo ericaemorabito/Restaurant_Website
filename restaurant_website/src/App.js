@@ -53,7 +53,7 @@ function App() {
           {/* <ReservationScreen /> */}
         </Routes>
       </main>
-      <Footer makeReservation={toggleReservation}/>
+      <Footer handleHours={toggleHours} makeReservation={toggleReservation}/>
     </Router>
   );
 }

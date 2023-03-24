@@ -19,6 +19,7 @@ const MenuScreen = () => {
     <Container fluid>
       {/* Menu Image */}
       <Row>
+        <h1 className="page-title">Menu</h1>
         <img
           id="menu-image"
           src={cheesy}

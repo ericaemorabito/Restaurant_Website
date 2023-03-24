@@ -1,12 +1,3 @@
-.box {
-  height: 65vh;
-  width: 50%;
-  background-color: white;
-  border: 1px solid black;
-  position: relative;
-  top: 15%;
-}
-
 .form-label {
   font-family: var(--tall-straight);
   font-size: 10px;
@@ -35,15 +26,4 @@
 
 .make-res-btn:hover {
   border: 1px solid black;
-}
-
-@media (max-width: 786px){
-  .box {
-    width: 100%;
-  }
-
-  .btn-close {
-    position: relative;
-    z-index: 100;
-  }
 }

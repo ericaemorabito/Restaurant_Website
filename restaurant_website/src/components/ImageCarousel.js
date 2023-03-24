@@ -12,6 +12,12 @@ function ImageCarousel({ home }) {
   return home ? (
     <Container className="my-5">
       <Carousel as="div" id="carousel-container" fade>
+        {home ? (
+          <h1 className="page-title">Welcome</h1>
+        ) : (
+          <h1 className="page-title">About</h1>
+        )}
+
         {/* <Carousel.Item> */}
         <Carousel.Item interval={3000}>
           <img
@@ -40,34 +46,33 @@ function ImageCarousel({ home }) {
     </Container>
   ) : (
     <Container className="my-5">
-    <Carousel as="div" id="carousel-container" fade>
-      {/* <Carousel.Item> */}
+      <Carousel as="div" id="carousel-container" fade>
+        {/* <Carousel.Item> */}
         <Carousel.Item interval={3000}>
-        <img
-          className="carousel-image d-block"
-          src={dough}
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item interval={3000}>
-        <img
-          className="carousel-image d-block w-100"
-          src={dryPasta}
-          // src={dryPasta}
-          alt="Second slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item interval={3000}>
-        <img
-          className="carousel-image d-block w-100"
-          src={makingPasta}
-          // src={dough}
-          alt="Third slide"
-        />
-      </Carousel.Item>
-    </Carousel>
-  </Container>
-
+          <img
+            className="carousel-image d-block"
+            src={dough}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item interval={3000}>
+          <img
+            className="carousel-image d-block w-100"
+            src={dryPasta}
+            // src={dryPasta}
+            alt="Second slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item interval={3000}>
+          <img
+            className="carousel-image d-block w-100"
+            src={makingPasta}
+            // src={dough}
+            alt="Third slide"
+          />
+        </Carousel.Item>
+      </Carousel>
+    </Container>
   );
 }
 
