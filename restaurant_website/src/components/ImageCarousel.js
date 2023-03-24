@@ -11,13 +11,8 @@ import makingPasta from "../images/makingpasta.jpeg";
 function ImageCarousel({ home }) {
   return home ? (
     <Container className="my-5">
+      <h1 className="page-title">Welcome</h1>
       <Carousel as="div" id="carousel-container" fade>
-        {home ? (
-          <h1 className="page-title">Welcome</h1>
-        ) : (
-          <h1 className="page-title">About</h1>
-        )}
-
         {/* <Carousel.Item> */}
         <Carousel.Item interval={3000}>
           <img
@@ -46,6 +41,7 @@ function ImageCarousel({ home }) {
     </Container>
   ) : (
     <Container className="my-5">
+      <h1 className="page-title">About</h1>
       <Carousel as="div" id="carousel-container" fade>
         {/* <Carousel.Item> */}
         <Carousel.Item interval={3000}>

@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from 'react-router-dom'
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../styles/blurb.css";
+import { motion } from 'framer-motion'
 
 const Blurb = ({ about, text }) => {
 

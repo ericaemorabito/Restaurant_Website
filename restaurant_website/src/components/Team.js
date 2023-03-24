@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/team.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import headchef from '../images/team/headchef.jpeg'
-import souschef from '../images/team/luis.jpeg'
-import pastrychef from '../images/team/pastrychef.jpeg'
-import manager from '../images/team/manager.jpeg'
+import headchef from "../images/team/headchef.jpeg";
+import souschef from "../images/team/luis.jpeg";
+import pastrychef from "../images/team/pastrychef.jpeg";
+import manager from "../images/team/manager.jpeg";
 
 const team = [
   {
@@ -34,15 +34,16 @@ const team = [
 ];
 
 const Team = () => {
+
   return (
     <Container>
       <Row className="team-row">
-      <h3 className="text-center mt-5 subtitle">Team</h3>
+        <h3 className="text-center mt-5 subtitle">Team</h3>
+
         {team.map((employee) => (
           <Col sm={6} m={6} lg={3}>
             <div className="employee-card d-flex flex-column justify-content-center align-items-center">
-              
-              <div className="employee-image-card">
+              <div id={employee.name} className="employee-image-card" >
                 <img className="employee-image" src={employee.image}></img>
               </div>
               <h4 className="mt-2 employee-name">{employee.name}</h4>
