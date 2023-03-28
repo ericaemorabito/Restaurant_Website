@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Recreating Colletta Restaurant Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+- This Restaurant Website is a recreation of the restaurant [Colletta's website](https://www.collettarestaurant.com/) using React. 
+- I love [Colletta's website](https://www.collettarestaurant.com/) design, so I used it to practice React skills by recreating it. 
+- I learned more about React, JavaScript, React-Bootstrap, and responsive web design from building this site. 
+- I built this site to practice my React and front-end skills.
+- This website allows users to learn more about a restaurant, view their menu, see their hours and location, and make reservations.
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+Visit [Restaurant Website]() to view the website.
+![home-page](./src/images/screenshot/home.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Use the navbar to view the about page.
+![about-page](./src/images/screenshot/about.png)
+![about-information](./src/images/screenshot/about2.png)
+![about-the-team](./src/images/screenshot/about3.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Click on the menu you wish to view.
+![menu](./src/images/screenshot/menu.png)
 
-### `npm test`
+View hours and location.
+![hours-and-location](./src/images/screenshot/hours.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Make a reservation.
+![reservation-form](./src/images/screenshot/res.png)
 
-### `npm run build`
+## Future Development 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Create pop-up information cards for each member of the Team on the About page.
+- Link reservation pop-up with Open Table.
+- Make downloadable as PWA.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Credits
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Credits for design and written content - [Colletta's website](https://www.collettarestaurant.com/)
