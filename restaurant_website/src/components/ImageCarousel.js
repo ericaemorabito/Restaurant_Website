@@ -1,16 +1,30 @@
 import { Carousel, Container } from "react-bootstrap";
 import "../styles/carousel.css";
 import redPasta from "../images/redpasta.jpeg";
-import bruschetta from "../images/bruschetta.jpeg";
 import olivePasta from "../images/olivepasta.jpeg";
 import pizza from "../images/pizza.jpeg";
 import dough from "../images/dough.jpeg";
 import dryPasta from "../images/drypasta.jpeg";
 import makingPasta from "../images/makingpasta.jpeg";
 
+// Fade In
+const fadeIn = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: { duration: 2 },
+  },
+};
+
 function ImageCarousel({ home }) {
   return home ? (
-    <Container className="my-5">
+    <Container className="my-5"
+    variant={fadeIn}
+    intial="hidden"
+    animate="visible"
+    >
       <h1 className="page-title">Welcome</h1>
       <Carousel as="div" id="carousel-container" fade>
         {/* <Carousel.Item> */}

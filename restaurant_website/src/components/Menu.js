@@ -1,10 +1,14 @@
 import React from "react";
 import "../styles/menu.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, } from "react-bootstrap";
+import { motion } from 'framer-motion';
 
 const Menu = ({ menu }) => {
   return (
-    <Container className="d-flex flex-column align-items-center my-5">
+    <motion.div className="d-flex flex-column align-items-center my-5"
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1, transition: { delay: 0.1, duration: 1} }}
+    >
       {/* Lunch Menu */}
       {menu === "lunch" && (
         <div className="menu">
@@ -235,7 +239,7 @@ const Menu = ({ menu }) => {
           </Row>
         </div>
       )}
-    </Container>
+    </motion.div>
   );
 };
 

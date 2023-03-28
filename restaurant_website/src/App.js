@@ -4,22 +4,13 @@ import "./App.css";
 import "react-bootstrap/dist/react-bootstrap.min.js";
 import HomeScreen from "./screens/HomeScreen";
 import AboutScreen from "./screens/AboutScreen";
-import HoursScreen from "./screens/HoursScreen";
 import MenuScreen from "./screens/MenuScreen";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Popup from "./components/Popup";
 import Hours from "./components/Hours";
-import Reservation from './components/Reservation'
+import Reservation from './components/Reservation';
 
 function App() {
-  // Open and Close Popup
-  // const [isOpen, setIsOpen] = useState(false);
-
-  // const togglePopup = () => {
-  //   setIsOpen(!isOpen);
-  // };
-
   // Open Hours
   const [openHours, setHours] = useState(false);
 
@@ -38,12 +29,6 @@ function App() {
     <Router>
       <Header handleHours={toggleHours} handleReservation={toggleReservation}/>
       <main>
-        {/* {isOpen && (
-          <Popup
-            handleClose={togglePopup}
-            content={<div>content in props</div>}
-          />
-        )} */}
         {openHours && <Hours handleClose={toggleHours} />}
         {openReservation && <Reservation handleClose={toggleReservation} />}
         <Routes>

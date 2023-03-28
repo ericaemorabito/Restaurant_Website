@@ -52,8 +52,14 @@ header {
   border: 0;
 }
 
-.nav-buttons:hover {
-  color: red;
+.nav-buttons::Click {
+  color: black;
   background-color: transparent;
   border: 0;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    margin-bottom: 20px; 
+  }
 }

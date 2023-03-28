@@ -1,10 +1,8 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom'
 import "../styles/infoCard.css";
-import { Container, Row, Col, Button } from "react-bootstrap";
-import pasta from "../images/pasta.jpeg";
-import swirl from '../images/pastaswirl.jpeg'
-import mussels from '../images/mussels.jpeg'
+import { Container, Col, Button } from "react-bootstrap";
+import { motion } from 'framer-motion';
 
 const InfoCardLeft = ({ home, title, card, image }) => {
 
@@ -16,7 +14,9 @@ const InfoCardLeft = ({ home, title, card, image }) => {
   return (
     <>
       <Container fluid>
-        <Row className="h-75 mx-5">
+        <motion.div className="row h-75 mx-5"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1, transition: { delay: 0.1, duration: 1} }}>
           <Col
             sm={12}
             m={6}
@@ -46,7 +46,7 @@ const InfoCardLeft = ({ home, title, card, image }) => {
               ></img>
             </div>
           </Col>
-        </Row>
+        </motion.div>
       </Container>
     </>
   );

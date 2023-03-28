@@ -1,14 +1,72 @@
-import React from "react";
+import React, { useState } from "react";
 import "bootstrap";
 import Colleta from "../images/Colleta.png";
-import brand from "../images/logo/Brand-logo.png";
-import { Nav, Navbar, Container, Button } from "react-bootstrap";
+import {
+  Nav,
+  Navbar,
+  Button,
+  Offcanvas,
+  NavDropdown,
+  Container,
+  Form,
+} from "react-bootstrap";
 import "../styles/header.css";
 
 const Header = (props) => {
+  // Offcanvas
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <header>
-      <Navbar collapseOnSelect expand="lg">
+      <Navbar collapseOnSelect expand="lg" className="mb-1">
+        <Container fluid>
+          <Navbar.Brand className="mx-2" href="/">
+            <img
+              src={Colleta}
+              width="200"
+              height="70"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+            ></img>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="offcanvasNavbarLabel-expand-lg" />
+          <Navbar.Offcanvas
+            collapseOnSelect
+            id="offcanvasNavbar-expand-lg"
+            aria-labelledby="offcanvasNavbarLabel-expand-lg"
+            placement="end"
+          >
+            <Offcanvas.Header closeButton></Offcanvas.Header>
+            <Offcanvas.Body>
+              <Nav className="justify-content-end flex-grow-1 pe-3">
+                <button
+                  className="nav-links nav-buttons "
+                  onClick={props.handleHours}
+                >
+                  HOURS & LOCATION
+                </button>
+                <Nav.Link className="nav-links text-center" href="/menu">
+                  MENU
+                </Nav.Link>
+                <Nav.Link className="nav-links text-center" href="/about">
+                  ABOUT
+                </Nav.Link>
+
+                <button
+                  className="nav-links nav-buttons"
+                  onClick={props.handleReservation}
+                >
+                  RESERVATIONS
+                </button>
+              </Nav>
+            </Offcanvas.Body>
+          </Navbar.Offcanvas>
+        </Container>
+      </Navbar>
+     
+      {/* <Navbar defaultExpanded collapseOnSelect expand="lg">
         <Navbar.Brand className="mx-2" href="/">
           <img
             src={brand}
@@ -18,26 +76,34 @@ const Header = (props) => {
             alt="React Bootstrap logo"
           ></img>
         </Navbar.Brand>
-
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    Content for the offcanvas goes here. You can place just about any Bootstrap component or custom elements here.
-  </div>
-</div>
-        {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav id='nav' as='div' className="justify-contents-end">
-              <Button className="nav-links nav-buttons" onClick={props.handleHours}>HOURS & LOCATION</Button>
-              <Nav.Link className="nav-links" href="/menu">MENU</Nav.Link>
-              <Nav.Link className="nav-links" href="/about">ABOUT</Nav.Link>
-              <Button className="nav-links nav-buttons" onClick={props.handleReservation}>RESERVATIONS</Button>
-            </Nav>
-          </Navbar.Collapse> */}
-      </Navbar>
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          className="d-lg-none"
+          onClick={handleShow}
+        />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav id="nav" as="div" className="me-auto justify-contents-end">
+            <Button
+              className="nav-links nav-buttons"
+              onClick={props.handleHours}
+            >
+              HOURS & LOCATION
+            </Button>
+            <Nav.Link className="nav-links" href="/menu">
+              MENU
+            </Nav.Link>
+            <Nav.Link className="nav-links" href="/about">
+              ABOUT
+            </Nav.Link>
+            <Button
+              className="nav-links nav-buttons"
+              onClick={props.handleReservation}
+            >
+              RESERVATIONS
+            </Button>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar> */}
     </header>
   );
 };

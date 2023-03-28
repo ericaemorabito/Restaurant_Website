@@ -17,3 +17,12 @@ p,
   color: black;
   border: none;
 }
+
+p:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.footer-btn:hover {
+  color: red;
+}

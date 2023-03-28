@@ -3,22 +3,22 @@ import "../styles/menuScreen.css";
 import {
   Container,
   Row,
-  Col,
   Button,
   ListGroup,
-  ListGroupItem,
 } from "react-bootstrap";
 import Menu from "../components/Menu";
-import olivePasta from "../images/olivepasta.jpeg";
 import cheesy from "../images/cheesy.jpeg";
+import { motion } from 'framer-motion';
+
 const MenuScreen = () => {
 
   const [menu, setMenu] = useState("lunch");
 
   return (
-    <Container fluid>
+    <Container fluid >
       {/* Menu Image */}
-      <Row>
+      <motion.div initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1, transition: { duration: 1.2} }}>
         <h1 className="menu-page-title">Menu</h1>
         <img
           id="menu-image"
@@ -26,10 +26,11 @@ const MenuScreen = () => {
           alt="pastas on table"
           className="img-fluid my-5"
         ></img>
-      </Row>
+      </motion.div>
 
       {/* Different Menu Buttons */}
-      <div className="menu-buttons-div">
+      <motion.div className="menu-buttons-div" initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1, transition: { duration: 1.2} }}>
         <ListGroup horizontal id="btn-list">
           <li>
             <Button className="menu-btn black-button" variant="dark" onClick={() => {setMenu('lunch')}}>
@@ -52,7 +53,7 @@ const MenuScreen = () => {
             </Button>
           </li>
         </ListGroup>
-      </div>
+      </motion.div>
 
       {/* Display the Menu */}
         <Menu menu={menu} />

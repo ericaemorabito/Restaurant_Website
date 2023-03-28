@@ -1,14 +1,15 @@
 import React from "react";
 import "../styles/infoCard.css";
-import { Container, Row, Col, Button } from "react-bootstrap";
-import cheers from "../images/cheers.jpeg";
-import pizza from "../images/pizza.jpeg";
+import { Container, Col, Button } from "react-bootstrap";
+import { motion } from 'framer-motion';
 
 const InfoCard = ({ home, title, card, image, makeReservation }) => {
   return (
     <>
       <Container fluid>
-        <Row className="h-75 mx-5">
+        <motion.div className="row h-75 mx-5"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1, transition: { delay: 0.1, duration: 1} }}>
           <Col
             sm={12}
             m={6}
@@ -45,7 +46,7 @@ const InfoCard = ({ home, title, card, image, makeReservation }) => {
               )}
             </div>
           </Col>
-        </Row>
+        </motion.div>
       </Container>
     </>
   );

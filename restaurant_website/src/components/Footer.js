@@ -1,14 +1,12 @@
 import React from "react";
 import '../styles/footer.css'
-import { Container, Row } from "react-bootstrap";
-import { Button } from "react-bootstrap";
 
 const Footer = ({handleHours, makeReservation}) => {
   return (
     <footer className="mb-3 mt-2 d-flex justify-content-center align-items-center">
           <p>CONTACT</p>
-          <Button className="footer-btn" onClick={handleHours}>HOURS & LOCATION</Button>
-          <Button className="footer-btn" onClick={makeReservation}>RESERVATIONS</Button>
+          <button className="footer-btn" onClick={handleHours}>HOURS & LOCATION</button>
+          <button className="footer-btn" onClick={makeReservation}>RESERVATIONS</button>
     </footer>
   );
 };
