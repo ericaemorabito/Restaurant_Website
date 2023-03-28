@@ -37,7 +37,7 @@ const team = [
 const Team = () => {
 
   return (
-    <Container>
+    <Container fluid>
       <motion.div className="row team-row"  initial={{ opacity: 0 }}
         whileInView={{ opacity: 1, transition: { delay: 0.1, duration: 1} }}>
         <h3 className="text-center mt-5 subtitle">Team</h3>

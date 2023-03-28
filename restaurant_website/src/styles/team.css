@@ -10,9 +10,6 @@
   margin: auto;
 }
 
-/* .employee-image-card {
-} */
-
 .employee-image {
   height: 300px;
   width: 265px;
@@ -21,11 +18,15 @@
 
 .employee-name {
   font-family: var(--tall-straight);
-
 }
 
 .employee-job {
 font-size: 16px;  
-margin: 0
-;
+margin: 0;
+}
+
+@media (max-width: 1004px) {
+  .team-row {
+    height: fit-content;
+  }
 }

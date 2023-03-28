@@ -35,7 +35,6 @@ function App() {
           <Route path="/" element={<HomeScreen makeReservation={toggleReservation}/>}></Route>
           <Route path="/about" element={<AboutScreen />}></Route>
           <Route path="/menu" element={<MenuScreen />}></Route>
-          {/* <ReservationScreen /> */}
         </Routes>
       </main>
       <Footer handleHours={toggleHours} makeReservation={toggleReservation}/>
