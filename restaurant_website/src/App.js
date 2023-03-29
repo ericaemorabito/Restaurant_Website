@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import "react-bootstrap/dist/react-bootstrap.min.js";
 import HomeScreen from "./screens/HomeScreen";
