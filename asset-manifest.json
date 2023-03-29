@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ericaemorabito/Restaurant_Website/static/css/main.f4d6fb50.css",
+    "main.js": "/ericaemorabito/Restaurant_Website/static/js/main.d5e222d2.js",
+    "static/js/787.5653e3f8.chunk.js": "/ericaemorabito/Restaurant_Website/static/js/787.5653e3f8.chunk.js",
+    "static/media/makingpasta.jpeg": "/ericaemorabito/Restaurant_Website/static/media/makingpasta.06d411dc01020a34baaa.jpeg",
+    "static/media/pizza.jpeg": "/ericaemorabito/Restaurant_Website/static/media/pizza.8f56b4fd1a3b00ba8e87.jpeg",
+    "static/media/chef.jpeg": "/ericaemorabito/Restaurant_Website/static/media/chef.f942e007a0712c7f8f98.jpeg",
+    "static/media/manager.jpeg": "/ericaemorabito/Restaurant_Website/static/media/manager.66b6f755d06e430d68dc.jpeg",
+    "static/media/cheers.jpeg": "/ericaemorabito/Restaurant_Website/static/media/cheers.ff34583fbe614c0a0b9d.jpeg",
+    "static/media/drypasta.jpeg": "/ericaemorabito/Restaurant_Website/static/media/drypasta.f7c5fde5e3a9073746d1.jpeg",
+    "static/media/headchef.jpeg": "/ericaemorabito/Restaurant_Website/static/media/headchef.ec0b586fd39d9cc8b94a.jpeg",
+    "static/media/pastrychef.jpeg": "/ericaemorabito/Restaurant_Website/static/media/pastrychef.447f01580d37872964fd.jpeg",
+    "static/media/cheesy.jpeg": "/ericaemorabito/Restaurant_Website/static/media/cheesy.2ce4a81359b983d772a2.jpeg",
+    "static/media/mussels.jpeg": "/ericaemorabito/Restaurant_Website/static/media/mussels.23e362c623aaf1ab1c26.jpeg",
+    "static/media/redpasta.jpeg": "/ericaemorabito/Restaurant_Website/static/media/redpasta.e13734ef5a0673b7148b.jpeg",
+    "static/media/olivepasta.jpeg": "/ericaemorabito/Restaurant_Website/static/media/olivepasta.3ddc731d5a77a6254091.jpeg",
+    "static/media/luis.jpeg": "/ericaemorabito/Restaurant_Website/static/media/luis.3378f3861cb4ca54ebd6.jpeg",
+    "static/media/dough.jpeg": "/ericaemorabito/Restaurant_Website/static/media/dough.0ad2c2f1f1987d234396.jpeg",
+    "static/media/foccaccia.jpeg": "/ericaemorabito/Restaurant_Website/static/media/foccaccia.c24f2d32d325f7c30b6c.jpeg",
+    "static/media/Colleta.png": "/ericaemorabito/Restaurant_Website/static/media/Colleta.1082c3f79c77a1d8c493.png",
+    "index.html": "/ericaemorabito/Restaurant_Website/index.html",
+    "main.f4d6fb50.css.map": "/ericaemorabito/Restaurant_Website/static/css/main.f4d6fb50.css.map",
+    "main.d5e222d2.js.map": "/ericaemorabito/Restaurant_Website/static/js/main.d5e222d2.js.map",
+    "787.5653e3f8.chunk.js.map": "/ericaemorabito/Restaurant_Website/static/js/787.5653e3f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4d6fb50.css",
+    "static/js/main.d5e222d2.js"
+  ]
+}
