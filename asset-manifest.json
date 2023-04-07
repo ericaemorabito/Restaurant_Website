@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ericaemorabito/Restaurant_Website/static/css/main.f4d6fb50.css",
-    "main.js": "/ericaemorabito/Restaurant_Website/static/js/main.d5e222d2.js",
+    "main.js": "/ericaemorabito/Restaurant_Website/static/js/main.4313deca.js",
     "static/js/787.5653e3f8.chunk.js": "/ericaemorabito/Restaurant_Website/static/js/787.5653e3f8.chunk.js",
     "static/media/makingpasta.jpeg": "/ericaemorabito/Restaurant_Website/static/media/makingpasta.06d411dc01020a34baaa.jpeg",
     "static/media/pizza.jpeg": "/ericaemorabito/Restaurant_Website/static/media/pizza.8f56b4fd1a3b00ba8e87.jpeg",
@@ -21,11 +21,11 @@
     "static/media/Colleta.png": "/ericaemorabito/Restaurant_Website/static/media/Colleta.1082c3f79c77a1d8c493.png",
     "index.html": "/ericaemorabito/Restaurant_Website/index.html",
     "main.f4d6fb50.css.map": "/ericaemorabito/Restaurant_Website/static/css/main.f4d6fb50.css.map",
-    "main.d5e222d2.js.map": "/ericaemorabito/Restaurant_Website/static/js/main.d5e222d2.js.map",
+    "main.4313deca.js.map": "/ericaemorabito/Restaurant_Website/static/js/main.4313deca.js.map",
     "787.5653e3f8.chunk.js.map": "/ericaemorabito/Restaurant_Website/static/js/787.5653e3f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4d6fb50.css",
-    "static/js/main.d5e222d2.js"
+    "static/js/main.4313deca.js"
   ]
 }
