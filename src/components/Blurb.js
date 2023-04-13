@@ -8,11 +8,11 @@ const Blurb = ({ about, text }) => {
   const navigate = useNavigate();
 
   const handleToAbout = () => {
-    navigate('/Restaurant_Website/#/about')
+    navigate('/about')
   }
 
   const handleToMenu = () => {
-    navigate('/Restaurant_Website/#/menu')
+    navigate('/menu')
   }
 
   return (
