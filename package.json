@@ -1,6 +1,6 @@
 {
+  "homepage": "https://ericaemorabito.github.io/Restaurant_Website/#",
   "name": "restaurant_website",
-  "homepage": "https://github.com/ericaemorabito/Restaurant_Website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +16,8 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

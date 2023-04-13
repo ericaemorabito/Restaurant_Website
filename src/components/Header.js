@@ -19,7 +19,7 @@ const Header = (props) => {
     <header>
       <Navbar collapseOnSelect expand="lg" className="mb-1">
         <Container fluid>
-          <Navbar.Brand className="mx-2" href="/">
+          <Navbar.Brand className="mx-2" href="/Restaurant_Website/#">
             <img
               src={Colleta}
               width="200"
@@ -44,10 +44,10 @@ const Header = (props) => {
                 >
                   HOURS & LOCATION
                 </button>
-                <Nav.Link className="nav-links text-center" href="/menu">
+                <Nav.Link className="nav-links text-center" href="/Restaurant_Website/#/menu">
                   MENU
                 </Nav.Link>
-                <Nav.Link className="nav-links text-center" href="/about">
+                <Nav.Link className="nav-links text-center" href="/Restaurant_Website/#/about">
                   ABOUT
                 </Nav.Link>
 

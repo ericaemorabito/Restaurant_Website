@@ -9,7 +9,7 @@ const InfoCardLeft = ({ home, title, card, image }) => {
   const navigate = useNavigate();
 
   const handleToMenu = () => {
-    navigate('/menu')
+    navigate('/Restaurant_Website/#/menu')
   }
   return (
     <>
