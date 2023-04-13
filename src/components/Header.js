@@ -4,11 +4,8 @@ import Colleta from "../images/Colleta.png";
 import {
   Nav,
   Navbar,
-  Button,
   Offcanvas,
-  NavDropdown,
   Container,
-  Form,
 } from "react-bootstrap";
 import "../styles/header.css";
 

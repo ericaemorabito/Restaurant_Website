@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import "react-bootstrap/dist/react-bootstrap.min.js";
 import HomeScreen from "./screens/HomeScreen";
@@ -9,6 +8,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Hours from "./components/Hours";
 import Reservation from './components/Reservation';
+
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   // Open Hours
