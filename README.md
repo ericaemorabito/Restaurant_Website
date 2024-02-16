@@ -10,7 +10,7 @@
 
 ## Usage
 
-Visit [Restaurant Website]() to view the website.
+Visit [Restaurant Website](https://ericaemorabito.github.io/Restaurant_Website/) to view the website.
 ![home-page](./src/images/screenshot/home.png)
 
 Use the navbar to view the about page.
